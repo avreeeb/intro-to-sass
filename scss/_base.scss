@@ -1,0 +1,17 @@
+/* Scss Document */
+
+//Colors 
+$blue: #80d5ff;
+$teal: #00e6ac;
+$grey: #aaaaaa;
+$grey-dark: #777777;
+$white: #fff;
+
+//You can use variables inside variables
+$primary: $blue;
+$secondary: $grey;
+
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+//Font families
+$helvetica: Helvetica, Arial, sans-serif;
+$maven: 'Maven Pro', sans-serif;

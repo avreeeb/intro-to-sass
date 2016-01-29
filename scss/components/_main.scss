@@ -1,0 +1,28 @@
+/* Scss Document */
+
+html{
+    font-family: $maven;
+}
+
+.border{
+  border: 2px solid $grey;
+  p{
+      color: $blue;
+    }
+}
+
+@media only screen and (min-width: 30em){
+	border-color: $blue;
+}
+
+@media only screen and (min-width: 60em){
+	border-color: $teal;
+}
+
+.primary-btn{
+  @include button(#2980b9);   //⬅︎ When we use the mixin we need to give it a bg-color
+}
+
+.secondary-btn{
+  @include button(#e5ccff);  
+}

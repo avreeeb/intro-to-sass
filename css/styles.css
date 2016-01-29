@@ -1,0 +1,52 @@
+/* Import Statements */
+/* Scss Document */
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+/* Scss Document */
+/* Scss Document */
+html {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.border, ul {
+  border: 2px solid #aaaaaa;
+}
+
+.border p, ul p {
+  color: #80d5ff;
+}
+
+@media only screen and (min-width: 30em) {
+  border-color: #80d5ff;
+}
+
+@media only screen and (min-width: 60em) {
+  border-color: #00e6ac;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #2980b9;
+}
+
+.primary-btn:hover {
+  background: #164666;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #e5ccff;
+}
+
+.secondary-btn:hover {
+  background: #b166ff;
+}
